@@ -1,12 +1,11 @@
 # sink-switch
----
 
 A lightweight, dependency-free Bash script to switch between connected audio output sinks on systems using PulseAudio or PipeWire. It dynamically detects all available sinks and allows switching via cycling, direct set, or querying the current sink — with optional desktop notifications.
 
----
+
 
 ## Dependencies
----
+
 
 - `bash`
 - `pactl` (from `pulseaudio-utils` or `pipewire-pulseaudio`)
@@ -14,10 +13,10 @@ A lightweight, dependency-free Bash script to switch between connected audio out
 
 All dependencies are likely preinstalled on most Fedora systems using PipeWire.
 
----
+
 
 ## Installation
----
+
 
 ### 🔧 Fedora (via COPR):
 
@@ -27,7 +26,7 @@ sudo dnf install sink-switch
 ```
 
 ## Usage
---- 
+
 
 ```bash
 sink-switch                  # Switch to the next sink
