@@ -21,10 +21,3 @@ install -d %{buildroot}%{_bindir}
 install -m 0755 sink-switch.sh %{buildroot}%{_bindir}/sink-switch
 
 %files
-%license LICENSE
-%doc README.md
-%{_bindir}/sink-switch
-
-%changelog
-* Mon Oct 20 2025 Kanishk Mishra <you@example.com> - 1.0-1
-- Initial release
